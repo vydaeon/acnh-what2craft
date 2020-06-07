@@ -1,0 +1,27 @@
+{
+  "id": "work-apron",
+  "name": "Work Apron",
+  "games": {
+    "nh": {
+      "orderable": true,
+      "sources": [
+        "Able Sisters"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 275
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1100
+        }
+      ],
+      "variations": {
+        "orange": "Orange",
+        "avocado": "Avocado"
+      }
+    }
+  },
+  "category": "Tops"
+}

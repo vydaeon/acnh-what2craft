@@ -1,0 +1,21 @@
+{
+  "id": "rose-wand",
+  "name": "Rose Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Celeste"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1580
+      },
+      "recipe": {
+        "red-roses": 1,
+        "star-fragment": 3
+      }
+    }
+  },
+  "category": "Tools"
+}

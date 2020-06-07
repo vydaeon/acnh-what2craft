@@ -1,0 +1,23 @@
+{
+  "id": "cute-lily-crown",
+  "name": "Cute Lily Crown",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 800
+      },
+      "recipe": {
+        "pink-lilies": 2,
+        "orange-lilies": 2,
+        "white-lilies": 2
+      },
+      "variations": {
+        "colorful": "Colorful"
+      }
+    }
+  },
+  "category": "Hats"
+}

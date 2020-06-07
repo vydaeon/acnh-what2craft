@@ -1,0 +1,20 @@
+{
+  "id": "wand",
+  "name": "Wand",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Celeste"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 1000
+      },
+      "recipe": {
+        "star-fragment": 2
+      }
+    }
+  },
+  "category": "Tools"
+}

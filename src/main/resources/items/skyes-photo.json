@@ -1,0 +1,17 @@
+{
+  "id": "skyes-photo",
+  "name": "Skye's Photo",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Gift from villager"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      }
+    }
+  },
+  "category": "Photos"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "yellow-butterfly-model",
+  "name": "Yellow Butterfly Model",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "customizable": false,
+      "sellPrice": {
+        "currency": "bells",
+        "value": 480
+      }
+    }
+  },
+  "category": "Furniture"
+}

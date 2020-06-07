@@ -1,0 +1,17 @@
+{
+  "id": "apples-photo",
+  "name": "Apple's Photo",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Gift from villager"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      }
+    }
+  },
+  "category": "Photos"
+}

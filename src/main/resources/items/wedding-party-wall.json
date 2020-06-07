@@ -1,0 +1,19 @@
+{
+  "id": "wedding-party-wall",
+  "name": "Wedding-party Wall",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 437
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1750
+        }
+      ]
+    }
+  },
+  "category": "Wallpaper"
+}

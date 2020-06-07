@@ -1,0 +1,17 @@
+{
+  "id": "biffs-photo",
+  "name": "Biff's Photo",
+  "games": {
+    "nh": {
+      "orderable": false,
+      "sources": [
+        "Gift from villager"
+      ],
+      "sellPrice": {
+        "currency": "bells",
+        "value": 10
+      }
+    }
+  },
+  "category": "Photos"
+}

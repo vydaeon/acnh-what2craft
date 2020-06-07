@@ -1,0 +1,24 @@
+{
+  "id": "wedding-candle-set",
+  "name": "Wedding Candle Set",
+  "games": {
+    "nh": {
+      "sellPrice": {
+        "currency": "bells",
+        "value": 300
+      },
+      "buyPrices": [
+        {
+          "currency": "bells",
+          "value": 1200
+        }
+      ],
+      "variations": {
+        "cute": "Cute",
+        "chic": "Chic",
+        "garden": "Garden"
+      }
+    }
+  },
+  "category": "Furniture"
+}
