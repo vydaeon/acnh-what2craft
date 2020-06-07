@@ -68,7 +68,7 @@ public class ItemRepository {
     private Path getItemsPath() {
         var itemsUri = ItemRepository.class.getResource("/items").toURI();
         return "jar".equals(itemsUri.getScheme())
-                ? newFileSystem(itemsUri, emptyMap()).getPath("/items")
+                ? newFileSystem(itemsUri, emptyMap()).getPath("/BOOT-INF/classes/items")
                 : Paths.get(itemsUri);
     }
 

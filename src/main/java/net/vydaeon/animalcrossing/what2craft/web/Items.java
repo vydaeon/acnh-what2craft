@@ -12,11 +12,6 @@ import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
-
-import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
-
 @Configuration
 class ItemsRouter {
 
@@ -36,16 +31,6 @@ class ItemsHandler {
 
     Mono<ServerResponse> getAllItems(ServerRequest request) {
         return ServerResponse.ok()
-                .body(repository.findAll(), Item.class)
-                .onErrorResume(this::reportError);
-    }
-
-    private Mono<ServerResponse> reportError(Throwable t) {
-        var stringWriter = new StringWriter();
-        var printWriter = new PrintWriter(stringWriter);
-        t.printStackTrace(printWriter);
-        printWriter.close();
-        return ServerResponse.status(INTERNAL_SERVER_ERROR)
-                .bodyValue(stringWriter.toString());
+                .body(repository.findAll(), Item.class);
     }
 }
